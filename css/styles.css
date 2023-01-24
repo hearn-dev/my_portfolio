@@ -1,3 +1,72 @@
-html {
-  background-color: blue;
+:root {
+  --light-green: #d7e9b9;
+  --light-yellow: #fffbac;
+  --light-orange: #ffd495;
+  --orange: #faab78;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Courier, monospace;
+}
+
+body {
+  background-color: var(--light-green);
+}
+
+h1 {
+  padding: 10px 0;
+  font-size: 5rem;
+  font-family: monospace;
+}
+
+p {
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.row-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-container {
+  width: 100%;
+  margin-top: 85px;
+}
+
+.intro {
+  width: 100%;
+  margin: 50px 0 30px 0;
+}
+
+.top-icons {
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.cloud-1 {
+  height: 200px;
+  position: absolute;
+  top: 300px;
+  right: 1000px;
+}
+
+.sun {
+  height: 300px;
+  position: absolute;
+  right: 250px;
+}
+
+.skill-icon {
+  width: 200px;
 }
